@@ -1,0 +1,42 @@
+@import url("https://use.typekit.net/mmd8ecg.css");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'korolev-rounded', sans-serif;
+  font-size: 20px;
+  background-color: #282828;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #26ad5e;
+}
+
+.app-wrapper {
+  margin: 0 auto;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  color: #282828;
+}
+
+.app-header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 10px;
+  width: 120px;
+  height: 130px;
+}
