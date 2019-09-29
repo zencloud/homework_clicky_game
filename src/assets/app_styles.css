@@ -17,26 +17,44 @@ h2 {
 
 .app-wrapper {
   margin: 0 auto;
-  width: 400px;
+  margin-top: 20px;
+  width: 470px;
   display: flex;
   flex-direction: column;
   color: #282828;
 }
 
 .app-header-container {
+  background-color: #000000;
+  height: 100px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.app-score-container {
+  display: flex;
+  flex-direction: column;
+  color: white;
 }
 
 .card-container {
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .card {
+  width: max-content;
   padding: 10px;
-  width: 120px;
-  height: 130px;
+}
+
+.card:hover {
+  cursor: pointer;
+  background-color: rgb(27, 26, 24);
+  border-radius: 5px;
 }
